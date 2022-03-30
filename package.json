@@ -1,0 +1,23 @@
+{
+  "name": "hello-node-js",
+  "version": "1.0.0",
+  "description": "Start the app by running node app.js in the terminal. The app basicly adds a .txt file based on the inputfield.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadeuszderuijter/node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadeuszderuijter/node-js/issues"
+  },
+  "homepage": "https://github.com/tadeuszderuijter/node-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
